@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.main-section {
+  position: relative;
+  top:150px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 1%;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.main-para {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+.top-section {
+  margin: 20px auto 50px 60px;
+}
+
+.main-stat-companies-txt, .main-stat-templates-txt, .main-stat-queries-txt {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#abdinasir {
+  display: inline-flex;
+}
+
+.main-stat-companies-num, .main-stat-templates-num, .main-stat-queries-num {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#yahya {
+  padding-right: 70px;
+  margin-top: 30px;
+}
+#mohamed {
+  padding-right: 70px;
+  margin-top: 30px;
+}
+#amal {
+  margin-top: 30px;
+}
+img {
+  margin-left: 100px;
+  height: 500px;
+  opacity: 50%;
+}
